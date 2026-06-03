@@ -24,12 +24,16 @@ and work with them systematically.
 
 ## Pattern format
 
-Each pattern follows this structure:
+Most patterns follow this structure:
 
 - **Example** — a minimal code snippet showing the problem
 - **Why it happens** — the AI's reasoning that leads to this decision
 - **Why it's a problem** — the concrete consequence
 - **Measure** — an instruction ready to paste into CLAUDE.md
+
+Patterns that describe a process failure rather than a code antipattern
+may replace **Example** with **The pattern** (a prose description) and
+add extra sections as needed, but must always include **Measure**.
 
 ---
 

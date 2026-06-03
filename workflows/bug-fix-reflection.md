@@ -25,7 +25,7 @@ If no commit is available, ask the user:
 
 ### Step 1 — Read the pattern catalog
 
-Read all files in `ai-coding-patterns/patterns/`.
+Read all files in the `patterns/` folder of this repository.
 Extract the ID, title, and Measure from each.
 
 ---
@@ -111,7 +111,7 @@ Add this to the `CLAUDE.md` of any project where you want automatic reflection:
 
 After completing any bug fix — including fixes triggered by your own mistakes —
 run the reflection workflow from:
-ai-coding-patterns/workflows/bug-fix-reflection.md
+<path-to-ai-coding-patterns>/workflows/bug-fix-reflection.md
 
 Do not modify CLAUDE.md or ai-coding-patterns without explicit user confirmation.
 ```
