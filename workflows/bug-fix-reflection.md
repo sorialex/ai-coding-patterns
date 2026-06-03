@@ -55,7 +55,7 @@ Determine which of the following applies:
 - Propose a draft using the standard format:
 
 ```markdown
-# [CATEGORY-NN] — [Title]
+# [P-NN]: [Title]
 
 ## Example
 [Minimal code or behavior that illustrates the pattern]
@@ -70,8 +70,10 @@ Determine which of the following applies:
 [Instruction ready to paste into CLAUDE.md]
 ```
 
-For the ID, use the next available number in the appropriate category
-(UI, ARCH, STATE, or propose a new category if needed).
+For the ID, use the next available number in the P-series (check the
+highest ID in `ai-coding-patterns/patterns/` and increment by 1).
+Category labels are optional documentation in the pattern body — they
+are not part of the ID format.
 
 ---
 

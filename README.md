@@ -35,17 +35,18 @@ Each pattern follows this structure:
 
 ## Catalog
 
-| ID   | Category     | Title                                            |
-| ---- | ------------ | ------------------------------------------------ |
-| P-01 | UI           | Buttons without implemented handler              |
-| P-02 | Architecture | Hardcoded strings without i18n system            |
-| P-03 | State        | Flow without reset mechanism                     |
-| P-04 | State        | Re-entry into flow with uninitialized state      |
-| P-05 | State        | No state cleanup on flow exit                    |
-| P-06 | Async        | Background job system reimplemented from scratch |
-| P-07 | Database     | Silent schema migration                          |
-| P-08 | Structure    | Call-site import bootstrap                       |
-| P-09 | DRY          | Per-module utility copy                          |
+| ID   | Title                                            |
+| ---- | ------------------------------------------------ |
+| P-01 | Buttons without implemented handler              |
+| P-02 | Hardcoded strings without i18n system            |
+| P-03 | Flow without reset mechanism                     |
+| P-04 | Re-entry into flow with uninitialized state      |
+| P-05 | No state cleanup on flow exit                    |
+| P-06 | Background job system reimplemented from scratch |
+| P-07 | Silent schema migration                          |
+| P-08 | Call-site import bootstrap                       |
+| P-09 | Per-module utility copy                          |
+| P-10 | Build system threshold                           |
 
 Patterns live in the `/patterns` folder, one file per entry.
 
