@@ -51,6 +51,8 @@ add extra sections as needed, but must always include **Measure**.
 | P-08 | Call-site import bootstrap                       |
 | P-09 | Per-module utility copy                          |
 | P-10 | Build system threshold                           |
+| P-11 | Desktop-only HTML layout                         |
+| P-12 | Async loading state stored in DOM, not in application state |
 
 Patterns live in the `/patterns` folder, one file per entry.
 
